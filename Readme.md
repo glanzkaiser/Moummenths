@@ -43,18 +43,21 @@ This command opens the React project on the following URL: `localhost:3000`
 2. Create .env file in root folder
 3. Set MONGODB_URL=mongodb+srv://your-db-connection
         
-## Run Backend / Server
+        
+## Install Dependencies
+
+At the project folder / Moummenths type at terminal:
 
 ```
-cd backend
+yarn
+(or)
 npm install
-npm start
 ```
 
-## Run Frontend
+## Run the application
 
 ```
-cd frontend
-npm install
-npm start
+npm run development or yarn development
 ```
+
+Open localhost:3000 in the browser
