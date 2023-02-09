@@ -30,3 +30,31 @@ npm start
 
 This command opens the React project on the following URL: `localhost:3000`
 (You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine)
+
+## Setup MongoDB
+
+* Local MongoDB
+1. Install it from https://www.mongodb.com/try/download/community
+2. Create .env file in root folder
+3. Set MONGODB_URL=mongodb://localhost/<dbname>
+
+* Atlas Cloud MongoDB
+1. Create database at https://cloud.mongodb.com
+2. Create .env file in root folder
+3. Set MONGODB_URL=mongodb+srv://your-db-connection
+        
+## Run Backend / Server
+
+```
+cd backend
+npm install
+npm start
+```
+
+## Run Frontend
+
+```
+cd frontend
+npm install
+npm start
+```
