@@ -27,6 +27,9 @@ sudo make install
 (or)
 make install
 ```
+
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenths-Node1.png)
+
 ## 2. Install React 
 Create a directory named MERN for example then open terminal there and type:
 
