@@ -1,7 +1,6 @@
 # About (Written by Glanz)
 
-A social media based on MERN Stacks. For the 8 Queens, Nature, Spirits, Divines, not for homo sapiens except me and my wife one day. 
-
+A social media based on MERN Stacks. For the 8 Queens, Nature, Spirits, Divines.
 # How to Setup
 
 Open terminal and type:
@@ -46,6 +45,14 @@ This command opens the React project on the following URL: `localhost:3000`
         
 ## Install Dependencies
 
+You can use `npm` or `yarn` as package manager to download the necessary modules/packages.
+It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
+        
+```
+npm install --global yarn        
+```
+check it with `yarn --version`        
+
 At the project folder / Moummenths type at terminal:
 
 ```
@@ -57,7 +64,9 @@ npm install
 ## Run the application
 
 ```
-npm run development or yarn development
+npm run development 
+(or) 
+yarn development
 ```
 
 Open localhost:3000 in the browser
