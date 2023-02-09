@@ -68,13 +68,32 @@ check it with `yarn --version`
 At the project folder / Moummenths type at terminal:
 
 ```
-yarn
+yarn init
+(fill some questions)
+yarn install
+(install all dependencies modules listed in package.json)
+yarn development
+(This command will get Nodemon, Webpack, and the server started for development)
+yarn start
+(run the bundled code in production)
+
 (or)
+
 npm install
+npm run development
+(if facing error: type 
 ```
 
+if facing this error when running the code: `error:0308010C:digital envelope routines::unsupported` then type:
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+        
 ## 5. Run the application
 
+The `package.json` file will contain meta-information about the application, as well as list the module dependencies.
+        
 ```
 npm run development 
 (or) 
