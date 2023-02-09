@@ -30,7 +30,7 @@ make install
 
 ![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenths-Node1.png)
 
-## 2. Install React 
+## 2. Install React (Optional to start from zero)
 Create a directory named MERN for example then open terminal there and type:
 
 ```
@@ -54,7 +54,12 @@ This command opens the React project on the following URL: `localhost:3000`
 2. Create .env file in root folder
 3. Set MONGODB_URL=mongodb+srv://your-db-connection
         
-        
+At ATLAS MongoDB, when in your database cluster, click Connect -> Connect your application and copy the connection string.
+
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenths-MongoDB1.png)
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenths-MongoDB2.png)
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenths-MongoDB3.png)
+
 ## 4. Install Dependencies
 
 You can use `npm` or `yarn` as package manager to download the necessary modules/packages.
@@ -72,16 +77,6 @@ yarn init
 (fill some questions)
 yarn install
 (install all dependencies modules listed in package.json)
-yarn development
-(This command will get Nodemon, Webpack, and the server started for development)
-yarn start
-(run the bundled code in production)
-
-(or)
-
-npm install
-npm run development
-(if facing error: type 
 ```
 
 if facing this error when running the code: `error:0308010C:digital envelope routines::unsupported` then type:
@@ -89,15 +84,28 @@ if facing this error when running the code: `error:0308010C:digital envelope rou
 ```
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
-        
+
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/yarninit.png)
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/yarninstall.png)
+
 ## 5. Run the application
 
 The `package.json` file will contain meta-information about the application, as well as list the module dependencies.
         
 ```
-npm run development 
-(or) 
 yarn development
+(This command will get Nodemon, Webpack, and the server started for development)
+yarn start
+(to run the bundled code in production)
+
+(or)
+
+npm install
+npm run development 
+
 ```
 
 Open localhost:3000 in the browser
+
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/npmrundevelopment.png)
+
