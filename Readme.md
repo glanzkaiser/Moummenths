@@ -29,3 +29,4 @@ npm start
 ```
 
 This command opens the React project on the following URL: `localhost:3000`
+(You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine)
