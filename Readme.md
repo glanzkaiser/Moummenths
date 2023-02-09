@@ -1,6 +1,6 @@
 # About (Written by Glanz)
 
-A social media based on MERN Stacks.
+A social media based on MERN Stacks. For the 8 Queens, Nature, Spirits, Divines, not for homo sapiens except me and my wife one day. 
 
 # How to Setup
 
