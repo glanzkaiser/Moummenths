@@ -3,6 +3,7 @@
 A social media based on MERN Stacks. For the 8 Queens, Nature, Spirits, Divines.
 # How to Setup
 
+## 1. Install NodeJS v-18.14 (February 2023 edition)
 Open terminal and type:
 
 ```
@@ -19,6 +20,14 @@ make
 ```
 (need Gcc 8.3.0 minimum)
 
+After finish compiling type:
+
+```
+sudo make install
+(or)
+make install
+```
+## 2. Install React 
 Create a directory named MERN for example then open terminal there and type:
 
 ```
@@ -30,7 +39,7 @@ npm start
 This command opens the React project on the following URL: `localhost:3000`
 (You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine)
 
-## Setup MongoDB
+## 3. Setup MongoDB
 
 * Local MongoDB
 1. Install it from https://www.mongodb.com/try/download/community
@@ -43,7 +52,7 @@ This command opens the React project on the following URL: `localhost:3000`
 3. Set MONGODB_URL=mongodb+srv://your-db-connection
         
         
-## Install Dependencies
+## 4. Install Dependencies
 
 You can use `npm` or `yarn` as package manager to download the necessary modules/packages.
 It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
@@ -61,7 +70,7 @@ yarn
 npm install
 ```
 
-## Run the application
+## 5. Run the application
 
 ```
 npm run development 
