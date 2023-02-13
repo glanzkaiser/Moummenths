@@ -110,7 +110,8 @@ Open localhost:3000 in the browser
 ![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/npmrundevelopment.png)
 ![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/MoummenthsHome.png)
 
-# 
+# Github and Local Computer Connection (Push and Pull / Clone)
+
 ## 1. (Pull) Git Clone Moummenths from github to Local Computer
 This is easy open terminal at the desired folder / directory and type:
 
@@ -141,3 +142,5 @@ After that it will ask for your username (mine is glanzkasier, and the password 
 ![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenthsgitpush.png)
 
       
+# Source
+1. Shama Hoque - Full-Stack React Projects Modern web development using React, Node, Express, and MongoDB-Packt Publishing Ltd (2018)
