@@ -109,3 +109,35 @@ Open localhost:3000 in the browser
 
 ![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/npmrundevelopment.png)
 ![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/MoummenthsHome.png)
+
+# 
+## 1. (Pull) Git Clone Moummenths from github to Local Computer
+This is easy open terminal at the desired folder / directory and type:
+
+```
+git clone https://github.com/glanzkaiser/Moummenths.git
+cd Moummenths
+```
+        
+## 2. (Push) Git Push Moummenths from Local Computer to Github Repository
+
+First create a Personal access token:
+#### Github -> Settings -> Developer Settings -> Personal Access Tokens -> Tokens (Classic) -> Generate New Token (Classic)
+
+Save the Personal Access Tokens and use it when you want to push it to the repository. Keep it a secret and store it in safe place.
+
+At the Moummenths folder that you have done some changing open terminal and type:
+```
+git init
+git add .
+git commit -m "tidying up"
+git branch -M main
+git remote add origin https://github.com/glanzkaiser/Moummenths.git
+git push -u origin main
+```
+
+After that it will ask for your username (mine is glanzkasier, and the password is the Personal Access Tokens, type it carefully).
+        
+![Moummenths](https://github.com/glanzkaiser/Moummenths/blob/main/images/Moummenthsgitpush.png)
+
+      
